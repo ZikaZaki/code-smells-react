@@ -3,7 +3,6 @@
 # Code Smells React 💩
 
 ## Table of Contents
-
 * __[Introduction](#introduction)__
 * __[Novel Smells](#novel-smells)__
   * [Force Update](#force-update)
