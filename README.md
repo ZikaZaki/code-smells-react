@@ -1,6 +1,6 @@
 <div align="justify">
   
-# Code Smells React 💩
+# 💩 Code Smells React
 
 ## Table of Contents
 
