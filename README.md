@@ -40,6 +40,7 @@ Please feel free to make pull requests and suggestions ([Issues][Issues] tab). W
 We claim our list includes five smells that have not been studied in the scientific literature: Force Update, Direct DOM Manipulation, Props in Initial State, Uncontrolled Components, and JSX Outside the Render Method. They refer to features very specific to React, including View updates, Components that manipulate DOM directly, Components that refer to HTML elements, Components' state, and render methods. 
 
 ### Force Update
+
 JavaScript frameworks rely on a data binding mechanism to keep the View layer updated with data automatically. Particularly, React supports one-way data binding, which automatically reflects model changes in the view. For this reason, it is considered a bad practice to force the update of components or even reload the entire page to update some content, as recommended in React documentation: 
 
 > Normally, you should try to avoid all uses of ``forceUpdate()`` and only read from ``this.props`` and ``this.state`` in ``render()``.
