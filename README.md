@@ -56,6 +56,7 @@ onSubmitForm = async () => {
 ```
 
 ### Direct DOM Manipulation
+
 React uses its own representation of the DOM, called virtual DOM, to denote what to render. When props and state change, React updates the virtual DOM and send the changes to the real DOM. For this reason, manipulating DOM using vanilla JavaScript can cause inconsistencies between React’s virtual DOM and the real DOM. In the following code, the component ``Portal`` creates and manipulates DOM elements through methods such as ``document.createElement('div')``, ``document.body.appendChild(this.node)`` and ``this.node.setAttribute``.
 
 ```jsx
@@ -90,6 +91,7 @@ class Portal extends React.PureComponent<PortalProps, {}> {
 ```
 
 ### Props in Initial State
+
 Initializing state with props makes the component to ignore props updates. If the props values change, the component will render its first values. React documentation also states about this smell:
 
 > Using props to generate state in the constructor (or \texttt{getInitialState}) often leads to duplication of "source of truth", for example where the real data is. This is because the constructor (or \texttt{getInitialState}) is only invoked when the component is first created.
@@ -126,6 +128,7 @@ class AddComment extends React.Component {
   }
 }
 ```
+
 On the other hand, when developers use controlled components, all data is stored in the component’s state, making it easy to validate fields instantly or render them conditionally.
 
 ### JSX outside the render method
@@ -225,6 +228,7 @@ class Developer extends React.Component {
 ```
 
 ### Duplicated Component
+
 This smell refers to almost identical components. For example, the problem usually occurs when multiple developers extract the same UI code to different components are unaware of an existing component and reimplement it. In the following example, {\tt Comment} and {\tt Opinion} have the same code.
 
 ```jsx
@@ -284,6 +288,7 @@ function Comment(props) {
 ```
 
 ### Large Component
+
 Clean and small components improve  readability and maintainability. For example,  \textsc{React} documentation provides this recommendation for refactoring large components
 
 > If a part of your UI is used several times, or is complex enough on its own, it is a good candidate to be extracted to a separate component.
