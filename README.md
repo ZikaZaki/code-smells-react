@@ -108,6 +108,7 @@ class ListNames extends Component {
 ```
 
 ### Uncontrolled Components
+
 Forms are key elements in Web UIs. The official React documentation recommends using controlled components to implement forms. In such components, React fully handles the form’s data. On the other hand, developers can implement forms using vanilla HTML, where the form data is handled by the DOM itself, leading to so-called Uncontrolled Components. For example, the following ``AddComment`` component is considered Uncontrolled, since it uses a ``ref`` to get the comment value.
 
 ```jsx
