@@ -175,7 +175,6 @@ As the codebase increases, Prop Drilling makes it challenging to figure out wher
 
 > _If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context._
 
-
 ## Traditional Smells
 
 In the grey literature and the interviews with developers, we identified six smells that are similar to traditional smells: Inheritance instead of Composition (since the inverse relation is considered a good object-oriented principle), Duplicated Component (which is a particular case of Duplicated Code), Large File, Large Component (which can be considered a particular case of the traditional Large Class), and Low Cohesion. We also consider that Too Many Props is similar to Data Class and Large Class proposed by Martin Fowler. A Data Class has mostly data and only setter and getter methods. A Large Class is a class with several responsibilities. On the other hand, Too Many Props designates a component with a large number of props. Essentially, this smell is very similar to the well-kwon Long Parameter List smell, proposed by Fowler. Just to clarify, in React, properties designates the parameters passed into components.
