@@ -287,7 +287,6 @@ Clean and small components improve  readability and maintainability. For example
 
 > If a part of your UI is used several times, or is complex enough on its own, it is a good candidate to be extracted to a separate component.
 
-
 ### Large Files
 
 A large file is one with several components whose implementation requires several lines of code. Indeed, some developers advocate that we should have exactly one component per file. See for example the following comment from one the interviewed developers:
