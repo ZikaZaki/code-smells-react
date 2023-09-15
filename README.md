@@ -22,7 +22,6 @@
   * [Large Files](#large-files)
   * [Low Cohesion](#low-cohesion)
 
-
 ## Introduction 
 
 Released by [*Facebook*][Facebook] in 2013, [*React*][React] is a widely popular JavaScript library for building user interfaces. Due to the complexity of modern Web UIs, React applications can have hundreds of components, lines of code, and files. As a result, it is natural to expect maintainability problems in React-based UIs due to wrong or suboptimal design decisions. In this context, identifying design problems when using this library is important. For example, front-end developers can use this information for refactoring and better understanding and evolving their systems. However, few works in the scientific literature focused on studying maintainability problems in React-based UIs.
