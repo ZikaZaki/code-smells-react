@@ -1,5 +1,5 @@
 <div align="justify">
-  
+
 # 💩 Code Smells React
 
 ## Table of Contents
